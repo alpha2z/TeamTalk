@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>729FBB0E-3BFD-4E94-9E2A-C2C7AD11F6CD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Pods</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>03B3FD6C67F046C0D5550C94C574722155DEFA82</key>
+		<string>https://github.com/riddick2z/TeamTalk.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TTiOSClient/TeamTalk/Pods/Pods.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>03B3FD6C67F046C0D5550C94C574722155DEFA82</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/riddick2z/TeamTalk.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>03B3FD6C67F046C0D5550C94C574722155DEFA82</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>03B3FD6C67F046C0D5550C94C574722155DEFA82</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TeamTalk</string>
+		</dict>
+	</array>
+</dict>
+</plist>
