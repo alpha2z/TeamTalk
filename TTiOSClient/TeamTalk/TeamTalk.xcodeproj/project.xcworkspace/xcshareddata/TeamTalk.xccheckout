@@ -10,31 +10,31 @@
 	<string>TeamTalk</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>BD18BFF708D5280B7092571EB026152FEFCE1B25</key>
-		<string>https://github.com/golastroom/TTiOSClient.git</string>
+		<key>01786BAA199CBF7A32BBF4FF2B27AE3BDC94FF26</key>
+		<string>https://github.com/riddick2z/TeamTalk.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>TeamTalk/TeamTalk.xcodeproj</string>
+	<string>TTiOSClient/TeamTalk/TeamTalk.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>BD18BFF708D5280B7092571EB026152FEFCE1B25</key>
-		<string>../../..</string>
+		<key>01786BAA199CBF7A32BBF4FF2B27AE3BDC94FF26</key>
+		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/golastroom/TTiOSClient.git</string>
+	<string>https://github.com/riddick2z/TeamTalk.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>BD18BFF708D5280B7092571EB026152FEFCE1B25</string>
+	<string>01786BAA199CBF7A32BBF4FF2B27AE3BDC94FF26</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>BD18BFF708D5280B7092571EB026152FEFCE1B25</string>
+			<string>01786BAA199CBF7A32BBF4FF2B27AE3BDC94FF26</string>
 			<key>IDESourceControlWCCName</key>
-			<string>TTiOSClient</string>
+			<string>TeamTalk</string>
 		</dict>
 	</array>
 </dict>
