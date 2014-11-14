@@ -70,7 +70,7 @@ public class ActionHolder {
 	 * @param actionDesc
 	 * @throws Exception
 	 */
-	@SuppressWarnings({"rawtypes"})
+	//@SuppressWarnings({"rawtypes"})
 	public void put(ActionDescricptor actionDesc) throws Exception {
 		
 		if(actionDesc == null) {
