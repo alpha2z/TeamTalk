@@ -65,6 +65,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>utility.lib;DuiLib.lib;TTLogic.lib;Modules.lib;GifSmiley.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)\..\lib\$(Configuration)</AdditionalLibraryDirectories>
+      <PerUserRedirection>true</PerUserRedirection>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
