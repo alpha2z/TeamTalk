@@ -35,7 +35,7 @@
 
 #import <UIKit/UIKit.h>
 //#import "JSMessageTextView.h"
-#import "HPGrowingTextView.h"
+#import <HPGrowingTextView.h>
 typedef enum
 {
     JSInputBarStyleDefault,
