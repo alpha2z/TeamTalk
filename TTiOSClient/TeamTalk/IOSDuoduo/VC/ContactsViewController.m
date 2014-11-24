@@ -223,7 +223,7 @@
                 return [self.groups count];
             }else if (section == 1)
             {
-                NSLog(@"%d........",[[ContactsModule getFavContact] count]);
+                // NSLog(@"%d........",[[ContactsModule getFavContact] count]);
                 return [[ContactsModule getFavContact] count];
             }
             else

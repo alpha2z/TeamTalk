@@ -344,7 +344,6 @@
 		C4EBA738192F279100B72723 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EBA737192F279100B72723 /* Foundation.framework */; };
 		C4EBA73A192F279100B72723 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EBA739192F279100B72723 /* CoreGraphics.framework */; };
 		C4EBA73C192F279100B72723 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EBA73B192F279100B72723 /* UIKit.framework */; };
-		C4EBA751192F279100B72723 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EBA750192F279100B72723 /* XCTest.framework */; };
 		C4EBA752192F279100B72723 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EBA737192F279100B72723 /* Foundation.framework */; };
 		C4EBA753192F279100B72723 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EBA73B192F279100B72723 /* UIKit.framework */; };
 		C4EBA75B192F279100B72723 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4EBA759192F279100B72723 /* InfoPlist.strings */; };
@@ -606,10 +605,6 @@
 		4CB58EAB1991FF98006B24D3 /* DDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDepartment.m; sourceTree = "<group>"; };
 		4CB6AA0B198F7F550075BDB4 /* ChatEditTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatEditTableViewCell.h; sourceTree = "<group>"; };
 		4CB6AA0C198F7F550075BDB4 /* ChatEditTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatEditTableViewCell.m; sourceTree = "<group>"; };
-		4CB8F6C119A6D97D00C4C27D /* IOSDuoduo Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IOSDuoduo Tests-Info.plist"; sourceTree = "<group>"; };
-		4CB8F6C319A6D97D00C4C27D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4CB8F6C519A6D97D00C4C27D /* IOSDuoduo_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSDuoduo_Tests.m; sourceTree = "<group>"; };
-		4CB8F6C719A6D97D00C4C27D /* IOSDuoduo Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IOSDuoduo Tests-Prefix.pch"; sourceTree = "<group>"; };
 		4CB8F6D119A7171800C4C27D /* DDContactsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDContactsCell.h; sourceTree = "<group>"; };
 		4CB8F6D219A7171800C4C27D /* DDContactsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDContactsCell.m; sourceTree = "<group>"; };
 		4CD156581998A36300B11233 /* DDAddMemberToGroupAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAddMemberToGroupAPI.h; sourceTree = "<group>"; };
@@ -1009,7 +1004,6 @@
 		C4EBA739192F279100B72723 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C4EBA73B192F279100B72723 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C4EBA74F192F279100B72723 /* TeamTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeamTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4EBA750192F279100B72723 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C4EBA758192F279100B72723 /* TeamTalkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TeamTalkTests-Info.plist"; sourceTree = "<group>"; };
 		C4EBA75A192F279100B72723 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C4EBA75C192F279100B72723 /* IOSDuoduoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSDuoduoTests.m; sourceTree = "<group>"; };
@@ -1037,7 +1031,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4EBA751192F279100B72723 /* XCTest.framework in Frameworks */,
 				C4EBA753192F279100B72723 /* UIKit.framework in Frameworks */,
 				C4EBA752192F279100B72723 /* Foundation.framework in Frameworks */,
 			);
@@ -1063,25 +1056,6 @@
 				4CA50CCC19A47B9A0032DE24 /* SpellLibrary.m */,
 			);
 			name = Search;
-			sourceTree = "<group>";
-		};
-		4CB8F6BF19A6D97D00C4C27D /* IOSDuoduo Tests */ = {
-			isa = PBXGroup;
-			children = (
-				4CB8F6C519A6D97D00C4C27D /* IOSDuoduo_Tests.m */,
-				4CB8F6C019A6D97D00C4C27D /* Supporting Files */,
-			);
-			path = "IOSDuoduo Tests";
-			sourceTree = "<group>";
-		};
-		4CB8F6C019A6D97D00C4C27D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4CB8F6C119A6D97D00C4C27D /* IOSDuoduo Tests-Info.plist */,
-				4CB8F6C219A6D97D00C4C27D /* InfoPlist.strings */,
-				4CB8F6C719A6D97D00C4C27D /* IOSDuoduo Tests-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		4CE2F7C519B0242000415778 /* resources */ = {
@@ -1996,7 +1970,6 @@
 				C493E0B11962A54F00B39106 /* main.m */,
 				C493DDCA1962A50900B39106 /* TeamTalk */,
 				C4EBA756192F279100B72723 /* IOSDuoduoTests */,
-				4CB8F6BF19A6D97D00C4C27D /* IOSDuoduo Tests */,
 				C4EBA736192F279100B72723 /* Frameworks */,
 				4C1367ED194AF9440094E87D /* New Group */,
 				45A51128555C4595B33CE39C /* Pods.xcconfig */,
@@ -2024,7 +1997,6 @@
 				C4EBA737192F279100B72723 /* Foundation.framework */,
 				C4EBA739192F279100B72723 /* CoreGraphics.framework */,
 				C4EBA73B192F279100B72723 /* UIKit.framework */,
-				C4EBA750192F279100B72723 /* XCTest.framework */,
 				3EFE09922227481999813B37 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -2585,14 +2557,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4CB8F6C219A6D97D00C4C27D /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4CB8F6C319A6D97D00C4C27D /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		C4EBA759192F279100B72723 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
